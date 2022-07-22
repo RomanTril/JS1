@@ -107,7 +107,7 @@ nameMiddle=prompt(naMe +" Як Вас По-Батькові?");
 console.log(nameMiddle);
 
 let aGe;
-aGe=prompt(naMe + " " + nameMiddle + " Ваш вік?");
+aGe=+prompt(naMe + " " + nameMiddle + " Ваш вік?");
 alert(naMe + " " + nameMiddle + " Гарного дня!")
 console.log(aGe);
 
